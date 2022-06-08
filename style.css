@@ -1,19 +1,21 @@
 
-button{
-    font-family: Helvetica, "Times New Roman", sans-serif;
-    font-size: 40px;
-    margin: auto;
-    padding: auto;
-    height: 80px;
-    width: 300px;
-    size: 100px, 100px;
+.image{
+    height: 250px;
+    width: 250px;
 }
 
-.dark{
-    background-color: black;
-    color: white;
+.image.avatar{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px; 
 }
 
-.light{
-    background-color: yellow;
+.image.distort{
+    height: 300;
+    width: 100px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
 }
