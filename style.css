@@ -1,0 +1,35 @@
+div {
+    background-color: red;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.out {
+    color:black;
+    font-weight: bold;
+}
+
+/*
+.pannel .description{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px, 50px;
+    color: white;
+
+}
+*
+
+
