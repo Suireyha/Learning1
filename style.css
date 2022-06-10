@@ -1,34 +1,41 @@
-.para.small-para {
-  font-size: 20px;
+img{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
 }
 
-.para {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 38px;
-  color: red;
+body{
+  background-image: url(./assets/sky.jpeg);
+  background-repeat: repeat-y;
 }
 
-.button.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 25px;
+.inline{
+  display: inline;
 }
 
-
-
-.text .child {
-  color: red;
-  font-size: 15px;
+.block{
+  display: block;
 }
 
-div.text {
-  color: green;
-  font-size: 22px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.inline_block{
+  display: inline-block;
+}
+
+.dif{
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+}
+
+.edward{
+
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background-color: blueviolet;
+  text-align: center;
+
+
+
 }
