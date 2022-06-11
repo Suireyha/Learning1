@@ -1,41 +1,31 @@
-img{
-  height: 200px;
-  width: 200px;
-  padding: 10px;
-}
-
 body{
   background-image: url(./assets/sky.jpeg);
-  background-repeat: repeat-y;
+  background-repeat: repeat-x repeat-y;
 }
 
-.inf{
-  display: inline-block;
+.parent{
+  display:flex;
+  background-color: darkgray;
+}
+
+.child{
+  flex: 1;
+  background-color: grey;
   height: 200px;
-  width: 200px;
-  padding: 11.5px;
-}
-
-.inline_block{
-  display: inline-block;
-}
-
-.dif{
-  display: inline-block;
-  width: 200px;
-  padding: 10px;
-}
-
-.edward{
-
-  display: flex;
-  height: 200px;
-  width: 200px;
   margin: 10px;
-  background-color: blueviolet;
   text-align: center;
+  color: white;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 160px;
 }
 
-.flex{
-  display: flex;
+.child-a{
+  flex: 2;
+  background-color: grey;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 160px;
 }
