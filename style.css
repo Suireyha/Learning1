@@ -9,12 +9,11 @@ body{
   background-repeat: repeat-y;
 }
 
-.inline{
-  display: inline;
-}
-
-.block{
-  display: block;
+.inf{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  padding: 11.5px;
 }
 
 .inline_block{
@@ -29,13 +28,14 @@ body{
 
 .edward{
 
-  display: inline-block;
+  display: flex;
   height: 200px;
   width: 200px;
   margin: 10px;
   background-color: blueviolet;
   text-align: center;
+}
 
-
-
+.flex{
+  display: flex;
 }
