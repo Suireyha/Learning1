@@ -1,97 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
-  height: 100%;
-}
-
 body {
-  font-family: Roboto, sans-serif;
+  height: 100vh;
   margin: 0;
-  background: #1E2026;
-  color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal {
-  background: white;
-  width: 480px;
-  display: flex;
-  flex-direction: row;
-  border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  justify-content: space-evenly;
-}
-
-.maincon{
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  background-color: #1E2026;
   display: flex;
   flex-direction: column;
-  flex: auto;
   justify-content: space-between;
-  margin: 13px;
-  gap: 10px;
 }
 
-.butcon{
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  
-}
-
-.header{
-  font-weight: bolder;
-  font-size: 20px;
-}
-
-.icon {
-  color: royalblue;
-  font-size: 26px;
-  font-weight: 700;
-  background: lavender;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1 0 auto;
-  margin: 10px;
-}
-
-.close-button {
-  background: #eee;
-  border-radius: 50%;
-  color: #888;
-  font-weight: 400;
-  font-size: 16px;
-  height: 24px;
-  width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 15px 15px 0px 0px;
-  flex: 1 0 auto;
-
+a {
+  color: grey;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 10px 0px;
 }
 
 button {
-  padding: 8px 16px;
+  font-family: Roboto, sans-serif;
+  border: none;
   border-radius: 8px;
+  background: #eee;
 }
 
-button.continue {
-  background: royalblue;
-  border: 1px solid royalblue;
-  color: white;
-  font-weight: bold;
-}
-
-button.cancel {
-  background: white;
+input {
   border: 1px solid #ddd;
-  color: royalblue;
-  font-weight: bold;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 550px;
+  margin-bottom: 16px;
+}
 
+.header{
+  background-color: #23252C;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hgroup{
+  display: flex;
+  margin: 0px 15px;
+  gap: 10px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.input{
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+}
+
+.logo{
+  align-self: center;
+  width: 550px;
+}
+
+.search{
+  background: url("./assets/search.png");
+  height: 40px;
+  margin-top: -5px;
+  color: transparent;
+  align-self: flex-start;
 }
